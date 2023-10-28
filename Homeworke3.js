@@ -70,15 +70,4 @@ function secondNum(y)
     }
 }
 
-console.log(num, "=>", first_d, second_d)
-
-if (num_s[1] == "0") {
-    switch(num_s[0]) {
-        case "1": console.log(num, "=>", "Ten"); break;
-         default:
-             firstNum(num_s[0])
-             console.log(num, "=>", first_d)
-    }
-    return;
-}
 
